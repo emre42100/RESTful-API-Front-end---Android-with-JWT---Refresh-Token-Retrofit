@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="680dp"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            style="@style/Base.TextAppearance.AppCompat.Headline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Şifre Değiştir"
+            android:textSize="17dp" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:theme="@style/AppTheme"
+            android:id="@+id/til_passwordEski"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mevcut şifre"
+            app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/lock_icon"
+                android:drawableLeft="@drawable/lock_icon"
+                android:drawablePadding="10dp"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:maxLines="1" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:theme="@style/AppTheme"
+            android:id="@+id/til_passwordYeni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Yeni şifre"
+            app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/lock_icon"
+                android:drawableLeft="@drawable/lock_icon"
+                android:drawablePadding="10dp"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:maxLines="1" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:theme="@style/AppTheme"
+            android:id="@+id/til_passwordYeniTekrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Yeni şifre (tekrar)"
+            app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/lock_icon"
+                android:drawableLeft="@drawable/lock_icon"
+                android:drawablePadding="10dp"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:maxLines="1" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="#000000"
+            android:padding="2dp">
+
+            <Button
+                android:id="@+id/btn_login"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#FFFFFF"
+                android:text="Değiştir"
+                android:textColor="#000000" />
+
+
+        </LinearLayout>
+
+
+        <ProgressBar
+            android:id="@+id/loader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:visibility="invisible" />
+
+
+        <LinearLayout
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/lgt"
+                android:layout_width="30dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_logout_svgrepo_com">
+
+            </ImageView>
+
+
+            <TextView
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Çıkış Yap"
+                android:textSize="15dp" />
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_gravity="center|right"
+            android:id="@+id/sozlesme"
+            android:textColorLink="#0F0F0F"
+            android:layout_marginTop="20dp"
+            android:text=""
+            android:textSize="12dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:id="@+id/sozluk"
+            android:layout_gravity="center"
+            android:layout_marginTop="244dp"
+            android:text="İnal Sözlük © 2020"
+            android:textSize="12dp">
+
+
+
+        </TextView>
+
+
+
+</LinearLayout>

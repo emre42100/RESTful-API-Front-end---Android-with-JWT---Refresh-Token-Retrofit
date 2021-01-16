@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">İnal Sözlük</string>
+
+    <!-- validation Errors -->
+
+    <string name="err_name">The name field is required.</string>
+    <string name="err_email"> </string>
+    <string name="err_password">Parola en az 6 karakter olmalıdır.</string>
+    <string name="emre">" "</string>
+    <string name="b">"E-posta adresinizi ve şifrenizi girin"</string>
+</resources>

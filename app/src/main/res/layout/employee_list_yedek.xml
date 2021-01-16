@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="0.9dp"
+    android:background="#FFFFFF"
+    android:paddingBottom="30dp">
+
+    <TextView
+        android:id="@+id/employeeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="5dp"
+        android:text="name"
+        android:textColor="@color/colorAccent"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/designation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="18dp"
+        android:textSize="11dp" />
+
+
+    <TextView
+        android:id="@+id/createdTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="20dp"
+        android:text=""
+        android:textSize="10dp" />
+
+
+    <TextView
+        android:id="@+id/cizgi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="99dp"
+        android:layout_marginTop="20dp"
+        android:text="~"
+        android:textSize="10dp"
+        android:visibility="invisible" />
+
+
+    <TextView
+        android:id="@+id/salary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="108dp"
+        android:layout_marginTop="20dp"
+        android:text=""
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp"
+        android:text="Employee Name"
+        android:textColor="#000000"
+        android:textSize="13dp" />
+
+</RelativeLayout>

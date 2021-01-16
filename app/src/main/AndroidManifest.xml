@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.inalsozluk.app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+
+        android:name="com.inalsozluk.app.MyApp"
+        android:allowBackup="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:hardwareAccelerated="true"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-5394749855620324~6996804339"/>
+
+
+    <activity android:name="com.inalsozluk.app.UpdateCustomerActivity" />
+
+        <activity android:name="com.inalsozluk.app.AddCustomerActivity" />
+        <activity
+            android:name="com.inalsozluk.app.SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+        <activity android:name="com.inalsozluk.app.LoginActivity" />
+        <activity android:name="com.inalsozluk.app.AnaActivity" />
+        <activity android:name="com.inalsozluk.app.RegisterActivity" />
+        <activity android:name="com.inalsozluk.app.getMyCustomerActivity" />
+        <activity android:name="com.inalsozluk.app.getAllCustomerActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:id="@+id/actvty"
+    android:orientation="horizontal"
+    android:layout_marginTop="80dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:padding="2dp">
+
+
+            <Button
+                android:id="@+id/btn_ekle"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="60dp"
+                android:layout_height="25dp"
+                android:layout_gravity="right"
+                android:background="#FFFFFF"
+                android:text="Gönder"
+                android:textColor="@color/colorAccent"
+                android:textSize="12dp" />
+
+        </RelativeLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:theme="@style/AppTheme"
+            android:id="@+id/til_adres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Başlık"
+            android:imeOptions="actionNext">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:imeOptions="actionNext"
+                android:inputType="none"
+                android:textColor="#A8A8A8"
+                android:textIsSelectable="true"
+                android:textSize="14dp"
+                android:textStyle="italic" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:descendantFocusability="blocksDescendants"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:id="@+id/til_aciklama"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:hint="Açıklama"
+                android:theme="@style/AppTheme">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/colorAccent"
+                    android:gravity="top|left"
+                    android:lines="12"
+                    android:maxHeight="500dp"
+                    android:maxLines="400"
+                    android:textSize="14dp"
+
+                    />
+
+                <requestFocus />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

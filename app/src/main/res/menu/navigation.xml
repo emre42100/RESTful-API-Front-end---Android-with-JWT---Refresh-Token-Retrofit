@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/aramaYap"
+        android:icon="@drawable/ic_icons8_search"
+        android:title="Ara" />
+
+
+    <item
+        android:id="@+id/navigation_profil"
+        android:visible="false"
+        android:icon="@drawable/adddoc"
+        android:title="Ekle" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/pers"
+        android:title="Profil" />
+
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/ayar"
+        android:title="Ayarlar" />
+
+
+    <item
+        android:id="@+id/ara"
+        android:title="arama"
+        android:visible="false" />
+
+
+</menu>
