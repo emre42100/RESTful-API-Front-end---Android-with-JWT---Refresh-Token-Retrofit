@@ -5,5 +5,5 @@ It is a very satisfying restful api project. I gave my months to develop this pr
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 APP IN GOOGLE PLAY: https://play.google.com/store/apps/details?id=com.inalsozluk.app
 --------------------------
-REFERENCE FOR BACKEND PHP API (JWT & Request Payload) : https://www.youtube.com/watch?v=l2xghbSlBQg&list=PLCakfctNSHkGQ6S557u-6sLEYsfWje47P
+REFERENCE FOR BACKEND PHP API (JWT & Request Payload) : https://www.youtube.com/watch?v=l2xghbSlBQg&list=PLCakfctNSHkGQ6S557u-6sLEYsfWje47P<br>
 REFERENCE FOR FRONTEND ANDROID RESTFUL API CONSUMER (JWT, refresh token & retrofit) : https://www.youtube.com/playlist?list=PLEubh3Rmu4tn8xtkVcWnWOjQcGG4aeRK-
